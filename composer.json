@@ -1,0 +1,28 @@
+{
+    "name": "meest/integration",
+    "type": "library",
+	"version": "dev-master",
+    "description": "Meest Shopping Integration",
+	"keywords": [
+        "meest", "api", "integration"
+    ],
+	"license": "MIT",
+    "authors": [
+        {
+			"email": "webdeveloper@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.1"
+    },
+	"autoload": {
+        "psr-4": {
+            "Meest\\Integration\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
