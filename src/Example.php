@@ -114,11 +114,11 @@ class Example
             ]
         ];
 
-        return $integration->shipmentCreate($data);
+        return $this->integration->shipmentCreate($data);
     }
 
     public function labelGet()
     {
-        return $integration->labelGet(7355218);
+        return $this->integration->labelGet(7355218);
     }
 }
