@@ -5,4 +5,5 @@ Add lines to composer.json
     ],
 
 And run command
+
     composer require meest/integration
